@@ -2,8 +2,8 @@
   "schemaVersion" : 1,
   "id" : "sodium",
   "version" : "${version}",
-  "name" : "Sodium",
-  "description" : "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues",
+  "name" : "GraphicaEnchancer",
+  "description" : "Graphica is indev fork of Sodium, designed to make more FPS boosting.",
   "authors" : [
     {
       "name" : "JellySquid (jellysquid3)",
@@ -11,9 +11,17 @@
         "email" : "jellysquid@pm.me",
         "homepage" : "https://jellysquid.me"
       }
+    },
+    {
+      "name" : "FedotovDev"
+      "contact" : {
+        "email" : "fedotovdev.8801@proton.me"
+        "homepage" : "https://sites.google.com/view/fedotovdev-official/main-page"
+      }
     }
   ],
   "contributors" : [
+    "FedotovDev8801",
     "IMS212",
     "bytzo",
     "PepperCode1",
@@ -38,9 +46,9 @@
     "muzikbike"
   ],
   "contact" : {
-    "homepage" : "https://github.com/CaffeineMC/sodium",
-    "sources" : "https://github.com/CaffeineMC/sodium",
-    "issues" : "https://github.com/CaffeineMC/sodium/issues"
+    "homepage" : "https://github.com/FedotovDev8801/GraphicaEnchancerMC",
+    "sources" : "https://github.com/FedotovDev8801/GraphicaEnchancerMC",
+    "issues" : "https://github.com/FedotovDev8801/GraphicaEnchancerMC/issues"
   },
   "license" : "Polyform-Shield-1.0.0",
   "icon" : "sodium-icon.png",
@@ -57,10 +65,9 @@
     "fabric-renderer-api-v1:contains_renderer" : true,
     "modmenu" : {
       "links" : {
-        "modmenu.donate" : "https://caffeinemc.net/donate",
+        "modmenu.donate" : "https://patreon.com/FedotovDev8801",
         "modmenu.discord" : "https://caffeinemc.net/discord",
-        "modmenu.github_releases" : "https://github.com/CaffeineMC/sodium/releases",
-        "modmenu.kofi" : "https://caffeinemc.net/donate",
+        "modmenu.github_releases" : "https://github.com/FedotovDev8801/GraphicaEnchancerMC/releases",
         "modmenu.modrinth" : "https://modrinth.com/mod/sodium"
       }
     }
@@ -71,7 +78,7 @@
     "sodium-fabric.mixins.json"
   ],
   "depends" : {
-    "minecraft": ["1.21.4"],
+    "minecraft": ["1.21.5"],
     "fabricloader" : ">=0.16.0",
     "fabric-block-view-api-v2" : "*",
     "fabric-renderer-api-v1" : "*",
